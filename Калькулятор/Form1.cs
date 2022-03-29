@@ -160,6 +160,7 @@ namespace Калькулятор
             }
             private void ResButton_Click(object sender, EventArgs e)
             {
+            label1.Text = label1.Text + textBox1.Text;
             calculate();
             }
 
